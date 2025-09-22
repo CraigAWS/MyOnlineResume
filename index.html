@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Craig Sinnott</title>
+    <title>Welcome to Craig Sinnott Resume</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 <body>
+    
+    <!--Header Section-->
+    
     <header>
         <section id="header-section">
             <div id="my-image">
@@ -16,7 +19,6 @@
             </div>
             <div>
                 <nav id="nav-bar">
-                    <a class="links" href="index.html">Home</a>
                     <a class="links" href="pages/about.html">About</a>
                     <a class="links" href="pages/projects.html">Projects</a>
                     <a class="links" href="pages/certifications.html">Certifications</a>
@@ -24,26 +26,33 @@
                 </nav>
             </div>
             <div>
-                <button class="contact-button" onclick="window.location.href='pages/contact.html'">
-                <p>Contact Me</p>
-                </button>
+                <a class="contact-me" href="pages/contact.html">
+                    <button class="contact-button" onclick="window.location.href='pages/contact.html'">
+                        <p>Contact Me</p>
+                    </button>
+                </a>
             </div>
         </section>
     </header>
+        
+    <!--Main Section-->
+    
     <main>
+        
+        <!--Hero Section-->
+        
         <section id="hero">
             <h1 id="heading">Welcome to <br> My Personal Website</h1>
             <p>This is a brief introduction about myself and my work.</p>
         </section>
-        <section>
-            <h2>Featured Projects</h2>
-            <div>
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
-            </div>
-            <div>
-                <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
+        
+        <!--About Me Section-->
+        
+        <sectionn id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I'm Craig Sinnott, a passionate developer and tech enthusiast. I love creating innovative solutions and exploring new technologies.</p>
+            <div class="about-me-image">
+                <img src="images/542687467_10239107879619796_6285686913085926306_n.jpg" alt="Picture of Craig Sinnott" width="300" height="300">
             </div>
         </section>
     </main>
