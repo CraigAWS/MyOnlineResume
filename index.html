@@ -3,39 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Craig Sinnott</title>
+    <title>Welcome to Craig Sinnott's Online Resume</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 <body>
+
+    <!--Header-Section-->
     <header>
         <section id="header-section">
+
+            <!--Logo-->
             <div id="my-image">
-                <a href="index.html"><img id="craigsinnott" src="images/542687467_10239107879619796_6285686913085926306_n.jpg" alt="Picture of Craig Sinnott" width="150" height="150"></a>
+                <a href="index.html"><img id="craigsinnott" src="images/craig-sinnott.jpg" alt="Picture of Craig Sinnott" width="150" height="150"></a>
             </div>
+
+            <!--Navigation-Bar-->
             <div>
                 <nav id="nav-bar">
-                    <a class="links" href="index.html">Home</a>
                     <a class="links" href="pages/about.html">About</a>
                     <a class="links" href="pages/projects.html">Projects</a>
                     <a class="links" href="pages/certifications.html">Certifications</a>
                     <a class="links" href="pages/contact.html">Contact</a>
                 </nav>
             </div>
+
+            <!--Contact-Button-->
             <div>
-                <button class="contact-button" onclick="window.location.href='pages/contact.html'">
-                <p>Contact Me</p>
-                </button>
+                <a id="contact-me" href="pages/contact.html">
+                    <button class="button">
+                        <p>Contact Me</p>
+                    </button>
+                </a>
             </div>
         </section>
     </header>
+
+    <!--Main-Section-->
     <main>
+        
+        <!--Hero-Section-->
         <section id="hero">
-            <h1 id="heading">Welcome to <br> My Personal Website</h1>
-            <p>This is a brief introduction about myself and my work.</p>
+            <div>
+                <h1 id="hero-heading">Welcome to <br> My Personal Website</h1>
+                <p>This is about myself and my work.</p>
+            </div>
         </section>
-        <section>
+        
+        <!--About Me Section-->
+        <section id="about-me">
+            <div id="video-container">
+                <div>
+                    <video autoplay muted loop playsinline id="background-video">
+                        <source src="Videos/fiery-eye-in-space-orbital-three-dimensional-an-2025-08-29-11-36-08-utc.mp4" type="video/mp4">
+                    </video>   
+                </div>
+                <div id="overlay-content">
+                    <div class="about-me-content-home">
+                        <div id="about-me-text-home">
+                            <h2 id="h2-sub-headings-about-me">
+                                About Me
+                            </h2>
+                            <p id="about-me-text">
+                                Hello! I'm Craig Sinnott, a passionate developer with experience in web development and cloud computing. I love creating innovative solutions and learning new technologies.
+                            </p>
+                            <a href="pages/about.html">
+                                <button class="button">
+                                    <p>Learn More</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div>
+                            <img id="image-of-me-home" src="images/Home about me picture.jpg" alt="Picture of me" heighty="250" width="450">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!--Projects Section-->
+        <section im>
             <h2>Featured Projects</h2>
             <div>
                 <h3>Project 1</h3>
@@ -47,6 +95,8 @@
             </div>
         </section>
     </main>
+
+    <!--Footer Section-->
     <footer>
         <p>&copy; 2025 Craig Sinnott. All rights reserved.</p>
         <p>Follow me on 
