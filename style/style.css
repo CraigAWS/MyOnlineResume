@@ -1,4 +1,8 @@
 /*main body styles*/
+* {
+    box-sizing: border-box;
+    display: border-box;
+}
 
 body
 {
@@ -23,7 +27,7 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 400px;
     margin: 0;
     padding: 10px;
     height: 180px;
@@ -275,16 +279,17 @@ section#hero div {
 
 #about-me-text {
     font-family: audiowide, sans-serif;
-    color: #dc03f8;
+    color: #03f807;
     font-size: 1.2em;
 }
 
 #image-of-me-home {
-    border-radius: 50%;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
     box-shadow:
         0 0 6px #00f4fc,
         0 0 16px #00f4fc,
         0 0 30px rgb(0, 244, 252);
     filter: drop-shadow(0 0 6px #00f4fc) blur(0.2px);
-    height: 650px;
-    width: 450px;   }
+    height: 500px;
+    width: 400px;   }
