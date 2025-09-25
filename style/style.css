@@ -20,7 +20,7 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 
 #header-section {
@@ -31,7 +31,7 @@ header {
     margin: 0;
     padding: 10px;
     height: 180px;
-    width: auto;   
+    width: 100%;   
 }
 
 #my-image, #nav-bar, .contact-button {
@@ -128,6 +128,13 @@ nav a:hover {
 
 #contact-me, #contact-me:hover {
     text-decoration: none;
+}
+
+.button-text {
+    color: #000000;
+    font-family: audiowide, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -234,14 +241,14 @@ section#hero div {
 #background-video{
     display: block;
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     align-items: center;
     object-fit: cover;
 }
 
 #overlay-content {
   position: relative;
-    top: -90vh; /* Adjust based on video height */
+    top: -80vh; /* Adjust based on video height */
   z-index: 2;
   color: white; /* Make text visible over the video */
   text-align: center;
@@ -274,13 +281,13 @@ section#hero div {
 
 #about-me-text-home, #h2-sub-headings-about-me, #about-me-text {
    text-align: left;
-   transition: ease-in;
 }
 
 #about-me-text {
     font-family: audiowide, sans-serif;
     color: #03f807;
     font-size: 1.2em;
+    width: 75%;
 }
 
 #image-of-me-home {
